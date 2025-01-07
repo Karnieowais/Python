@@ -9,7 +9,6 @@ class PrintingDetails:
     def get_details(self):
         return self.name, self.designation
 
-
 details = PrintingDetails("Owais", "Big Data engineer")
 details.get_details()
 details.display_details()
