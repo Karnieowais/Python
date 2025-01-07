@@ -1,10 +1,11 @@
 class PrintingDetails:
-    def __init__(self, name, designaton):
-        self.name = None
-        self.designation = None
+    def __init__(self, name, designation):
+        self.name = name
+        self.designation = designation
 
-    def displayName(self, name, designation):
-        print(f"My name is {name} and i am working as a {designation}")
+    def display_name(self):
+        print(f"My name is {self.name} and i am working as a {self.designation}")
 
 
 details = PrintingDetails("Owais", "Big Data engineer")
+details.display_name()
